@@ -1,37 +1,48 @@
-# DeepFake Video Detection
+# SwapSense: Advanced Deepfake Detection
 
-This project named as DeepFake Video Detection,used to detect any video is deepfake or not, is a web app whose backend host a pre trained model  and runs in flask. You can run this project on your local machine as well as on cloud very easily.
+SwapSense is an advanced deepfake detection application that allows users to upload videos and analyze them for deepfake content. This frontend project provides a user-friendly interface to upload videos, visualize the analysis results, and compare the original and analyzed videos.
 
+## Table of Contents
 
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-# Environment Setup
+## Features
 
-Make sure Anaconda is installed and launch anaconda prompt and navigate to root directory in the anaconda prompt
+- Drag and drop video upload functionality
+- Real-time upload progress display
+- Visualization of analysis results using charts
+- Side-by-side comparison of original and analyzed videos
+- Responsive design
 
-create venv
+## Demo
 
-```shell
-conda create -n deepfakedetection python=3.10
-```
+![Demo](path/to/demo.gif)
 
-Activate
+## Installation
 
-```shell
-conda activate deepfakedetection 
-```
+To get started with the frontend project, follow these steps:
 
-In order to set your environment up to run the code here, first install all requirements:
+1. **Clone the repository:**
 
-```shell
-pip install -r requirements.txt
-```
+   ```sh
+   git clone https://github.com/yourusername/swapsense-frontend.git
+   cd swapsense-frontend
+   ### Explanation
 
-run the app.py file 
+1. **Project Title and Description**: Provides a brief overview of the project.
+2. **Table of Contents**: Helps users quickly navigate to different sections of the README.
+3. **Features**: Lists the key features of the application.
+4. **Demo**: A placeholder for a demo GIF or image showing the application in action.
+5. **Installation**: Step-by-step instructions to set up the project locally.
+6. **Usage**: Instructions on how to use the application.
+7. **Folder Structure**: An overview of the project's folder structure.
+8. **Contributing**: Guidelines for contributing to the project.
+9. **License**: Information about the project's license.
 
-```shell
-python app.py
-```
-
-Once you see this url - http://127.0.0.1:5000/ in logs, open it in browser.
-
-Now your setup is ready.
+This `README.md` file serves as a comprehensive guide for anyone who wants to understand, set up, and contribute to your project. If you have any additional sections or information you would like to include, feel free to modify it accordingly.
